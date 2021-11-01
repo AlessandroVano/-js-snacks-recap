@@ -7,7 +7,7 @@
 
  // VERSIONE CON FOR
 
-let  sommaNumeri = 0
+/* let  sommaNumeri = 0
 
 
  for (let i = 0; i < 5; i++) {
@@ -17,6 +17,21 @@ let  sommaNumeri = 0
      sommaNumeri += numeroDaInserire;
  }
      console.log(`la somma dei numeri inseriti è: ${sommaNumeri}`);
-
+ */
 
      // VERSIONE CON WHILE
+
+     
+  // inserimento let
+  let sommaNumeri = 0
+  let conteggioNumeri = 0
+
+  while ( conteggioNumeri < 5) {
+      const numeroDaInserire = parseInt( prompt('inserisci un numero') );
+      console.log(numeroDaInserire);
+      sommaNumeri += numeroDaInserire;
+    
+      conteggioNumeri ++;
+  }
+
+      console.log(`la somma dei numeri inseriti è ${sommaNumeri}`)
