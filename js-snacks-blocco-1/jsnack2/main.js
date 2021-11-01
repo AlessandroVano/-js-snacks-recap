@@ -5,10 +5,18 @@
  */
 
 
- //Stampaggio numeri inseriti con for
+ // VERSIONE CON FOR
+
+let  sommaNumeri = 0
+
 
  for (let i = 0; i < 5; i++) {
      // richiesta di inserimento numero (sopra il numero 5 sta ad indicare in numero di volte che il prompt ripeterà la richiesta di inserire un numero.
      const numeroDaInserire = parseInt( prompt('inserisci il numero'))
      console.log(numeroDaInserire);
+     sommaNumeri += numeroDaInserire;
  }
+     console.log(`la somma dei numeri inseriti è: ${sommaNumeri}`);
+
+
+     // VERSIONE CON WHILE
