@@ -18,5 +18,10 @@ console.log(parola2);
 if (parola1 === parola2) {
     console.log('hanno la stessa lunghezza');
 } else if (parola1 > parola2) {
-    console.log(`${parola2} ${parola1}`);
-}
+    console.log(`${parola2} ${parola1}`)
+    console.log('la parola1 è maggiore della parola2');
+} else (parola2 > parola1) 
+    console.log(`${parola1} ${parola2}`)
+
+    
+    
